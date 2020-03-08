@@ -1,3 +1,66 @@
 body{
-  background-color: darkorchid;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+header{
+  background-color: dimgray;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1, h2{
+  font-family: 'Great Vibes', cursive;
+}
+
+header h1{
+  color: white;
+  font-size: 50px;
+ }
+
+header img{
+  border-radius: 150px;
+  width: 300px;
+  border: 5px solid white;
+}
+
+main{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+main img{
+  max-width: 100%;
+}
+
+h2{
+  font-size: 35px;
+  color: goldenrod;
+  margin: 35px 0 10px;
+}
+
+a{
+  color: rosybrown;
+}
+a:hover{
+  color: goldenrod;
+}
+
+footer{
+  background-color: dimgray;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+footer p{
+  margin: 0;
+}
+
+p.caption{
+  color: lightgrey;
+  font-style: italic;
+  margin-top: 0;
 }
